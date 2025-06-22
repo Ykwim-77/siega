@@ -29,4 +29,31 @@ BRANCH:
 
 PULL:
 	vai baixar as alterações que estão no repositório remoto (ex: GitHub) e vai atualizar o local.
-aaa
+
+git init:
+	Inicia um repositório Git local na pasta do seu projeto. Cria a estrutura para controlar versões.
+
+git status:
+	Mostra o estado atual dos arquivos no repositório: quais foram modificados, adicionados ou ainda não estão sendo monitorados.
+
+git add [arquivo]:
+	Adiciona o arquivo para a "área de stage", ou seja, prepara ele para o próximo commit.
+
+git commit -m "mensagem":
+	Salva as alterações que foram adicionadas com git add, criando um checkpoint com uma mensagem explicando o que foi feito.
+
+git log:
+	Exibe o histórico dos commits feitos, mostrando as mensagens e os códigos identificadores.
+
+git branch:
+	Mostra as ramificações (branches) do projeto, ou cria uma nova linha de desenvolvimento paralela.
+
+git checkout [branch/nome]:
+	Troca para outra branch, para trabalhar em outra linha do projeto.
+
+git pull:
+	Puxa (baixa) as atualizações do repositório remoto (ex: GitHub) para o seu repositório local, atualizando o código.
+
+git push:
+	Envia os commits feitos localmente para o repositório remoto, compartilhando suas alterações.
+

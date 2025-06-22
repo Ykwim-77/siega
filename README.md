@@ -1,5 +1,4 @@
 # siega
-ainda não sei
 CONTROLE DE VERSÃO:
 	rastreabilidade.
 
